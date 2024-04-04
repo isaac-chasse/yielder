@@ -8,7 +8,7 @@ import { findToken } from "./token-info-fns"
 const debug = nodeDebug("solana-protocol-streams:connection")
 
 const RPCs = [
-    "https://solana-mainnet.g.alchemy.com/v2/JHLUKKn9pM9HnYIqiaOll8xo7zWGfLhu",  // personal RPC from Alchemy
+  // personal RPC from Alchemy
   // "https://api.mainnet-beta.solana.com",
   // "https://solana-api.projectserum.com",
   // "https://rpc.ankr.com/solana",
