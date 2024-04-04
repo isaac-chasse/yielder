@@ -19,7 +19,7 @@ export const fetch = fetchHandler(
         const driftClient = new DriftClient({
             connection: connection,
             wallet: wallet,
-            programID: new PublicKey("dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH"),
+            programID: new PublicKey("..."), // add drift PK
             env: 'mainnet-beta',
         });
 
