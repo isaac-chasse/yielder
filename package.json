@@ -1,0 +1,28 @@
+{
+  "name": "anchor-emmision-decoder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@blockworks-foundation/mango-v4": "^0.20.3",
+    "@drift-labs/sdk": "^2.45.0-beta.5",
+    "@port.finance/port-sdk": "^0.2.69",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/buffer-layout": "^4.0.1",
+    "@solana/buffer-layout-utils": "^0.2.0",
+    "@solana/spl-token-registry": "^0.2.4574",
+    "@solana/web3.js": "^1.87.6",
+    "@types/debug": "^4.1.12",
+    "bn.js": "^5.2.1",
+    "debug": "^4.3.4",
+    "decimal.js": "^10.4.3",
+    "global": "^4.4.0",
+    "ts-node": "^10.9.1"
+  }
+}
