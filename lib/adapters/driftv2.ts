@@ -12,7 +12,7 @@ export const fetch = fetchHandler(
     "driftv2",
     async ({ connection, isDesiredToken }) => {
         // const driftConfig = new configs["mainnet-beta"];
-        const keyPairFile = '/Users/isaac.chasse/.config/solana/id.json';
+        const keyPairFile = '...' // keypair locale 
         const wallet = new Wallet(loadKeypair(keyPairFile))
 
         console.log("here!");
